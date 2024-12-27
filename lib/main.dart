@@ -11,6 +11,7 @@ void main() {
   );
   ServiceLocator.setupServiceLocator(appConfig);
   runApp(const MainApp());
+  
 }
 
 class MainApp extends StatelessWidget {
